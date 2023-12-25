@@ -19,7 +19,7 @@ body{
     align-items: center;
     margin: 30px;
     gap: 20px;
-    height: 200px;
+    height: 250px;
 }
 
 #container h1 {
@@ -31,4 +31,15 @@ body{
     border: 0px none;
     border-radius: 5px;
     font-size: 20px;
+}
+
+#footer {
+    /* flex: 1 1 auto; */
+    display: flex;
+    align-items: center;
+}
+
+#footer img{
+    flex: 1 1 auto;
+    height: 100px;
 }
